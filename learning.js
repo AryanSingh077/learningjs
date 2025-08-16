@@ -40,10 +40,12 @@
 // console.log(badmosi);// simply it increase value by 1;
 
 // let x = "6";
-// let y = ++x;
+// let y = ++x; // prefix increament: increment operator increments and returns the value after incrementing.
 
-let x = "6";
-let y = x++;
+// let x = "6";
+// let y = x++; // postfix increament: the increment operator increments and returns the value before incrementing.
 
-console.log(x);
-console.log(y);
+// console.log(x);
+// console.log(y);
+
+// done for this time see me in next sad moment;)
