@@ -33,5 +33,8 @@
 // console.log(url.replace('%20', '-'))
 // console.log(url.includes('singh'))
 
-const chuha = new String('Cosmic-Chuha')
-console.log(chuha.split('-'));
+// const chuha = new String('Cosmic-Chuha')
+// console.log(chuha.split('-'));
+
+
+// had done basics of stringggg energy...
