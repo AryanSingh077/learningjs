@@ -38,3 +38,6 @@
 
 
 // had done basics of stringggg energy...
+
+
+// today i had revised these things...
