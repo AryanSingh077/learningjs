@@ -1,6 +1,9 @@
-const btn = document.getElementById("btn");
-const output = document.getElementById("output");
+const btn = document.querySelector("#btn");
+const output = document.querySelector("#output");
+let isWhite = true;
 
 btn.addEventListener("click", () => {
-    output.textContent = "Button Clicked";
-});
+    output.textContent = "Button clicked";
+    document.body.style.backgroundColor = isWhite ? "black" : "white";
+    isWhite = !isWhite;
+})
