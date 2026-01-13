@@ -1,6 +1,7 @@
 const h1a = document.querySelector("#h1a");
-const contents = document.querySelectorAll(".text");
+const content = document.getElementsByClassName("text");
+const contents = document.getElementsByTagName("p");
 
 console.log(h1a);
-console.log(contents[0]);
-console.log(contents[1]);
+console.log(content[0]);
+console.log(content[1]);
