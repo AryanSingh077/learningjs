@@ -25,14 +25,14 @@
 /*we use querySelector because its replaces the use of the old methods and its easy to use, 
 we can change the css using querySelector, and its better for real projects */
 
-// for id
-const id = document.querySelector("#id");
+// // for id
+// const id = document.querySelector("#id");
 
-// for class
-const content = document.querySelector(".class");
+// // for class
+// const content = document.querySelector(".class");
 
-// for tags
-const ele = document.querySelector("div");
+// // for tags
+// const ele = document.querySelector("div");
 
 
 /* properties of dom*/
@@ -43,5 +43,11 @@ const ele = document.querySelector("div");
 // console.log(ele.innerText);
 // console.log(id.innerHTML);
 
-console.log(content.getAttribute);
-content.setAttribute("class", "mainBox");
+// const div = document.querySelector("div");
+// div.setAttribute("id", "B");
+
+const content = document.querySelector("#box");
+
+let para = document.createElement("p");
+para.textContent = "Hooga Booga elite";
+content.append(para);
