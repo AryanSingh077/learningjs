@@ -46,8 +46,37 @@ we can change the css using querySelector, and its better for real projects */
 // const div = document.querySelector("div");
 // div.setAttribute("id", "B");
 
-const content = document.querySelector("#box");
+// const content = document.querySelector("#box");
 
-let para = document.createElement("p");
-para.textContent = "Hooga Booga elite";
-content.append(para);
+// let para = document.createElement("p");
+// para.textContent = "Hooga Booga elite";
+// content.append(para);
+
+// Qs. Create a H2 heading element with text - “Hello JavaScript”. Append “from Apna College students” to this text using JS.
+
+const head = document.querySelector("h2");
+head.append(" form Apna College students");
+
+// Create 3 divs with common class name - “box”. Access them & add some unique text to each of them.
+
+const box = document.querySelectorAll(".content");
+box[0].textContent = "Im";
+box[1].textContent = "a";
+box[2].textContent = "God";
+
+// Qs. Create a new button element. Give it a text “click me”, background color of red & text color of white.
+// Insert the button as the first element inside the body tag.
+
+const whole = document.querySelector("body");
+let btn = document.createElement("button");
+btn.innerText = "click me";
+btn.style.backgroundColor = "red";
+btn.style.color = "white";
+
+whole.prepend(btn);
+
+// Create a <p> tag in html, give it a class & some styling. Now create a new class in CSS and try to append this class to the <p> element.
+// Did you notice, how you overwrite the class name when you add a new one? Solve this problem using classList.
+
+const display = document.querySelector(".story");
+display.className = "changed";

@@ -1,0 +1,11 @@
+.story {
+    color: blue;
+    background-color: darkolivegreen;
+    border: 3px solid red;
+}
+
+.changed {
+    color: black;
+    background-color: grey;
+    border: 3px solid yellow;
+};
