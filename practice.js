@@ -43,5 +43,5 @@ const ele = document.querySelector("div");
 // console.log(ele.innerText);
 // console.log(id.innerHTML);
 
-// Qs. Create a H2 heading element with text - “Hello JavaScript”. Append “from Apna College students" to this text using JS.
-
+console.log(content.getAttribute);
+content.setAttribute("class", "mainBox");
