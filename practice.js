@@ -52,31 +52,58 @@ we can change the css using querySelector, and its better for real projects */
 // para.textContent = "Hooga Booga elite";
 // content.append(para);
 
-// Qs. Create a H2 heading element with text - “Hello JavaScript”. Append “from Apna College students” to this text using JS.
+// // Qs. Create a H2 heading element with text - “Hello JavaScript”. Append “from Apna College students” to this text using JS.
 
-const head = document.querySelector("h2");
-head.append(" form Apna College students");
+// const head = document.querySelector("h2");
+// head.append(" form Apna College students");
 
-// Create 3 divs with common class name - “box”. Access them & add some unique text to each of them.
+// // Create 3 divs with common class name - “box”. Access them & add some unique text to each of them.
 
-const box = document.querySelectorAll(".content");
-box[0].textContent = "Im";
-box[1].textContent = "a";
-box[2].textContent = "God";
+// const box = document.querySelectorAll(".content");
+// box[0].textContent = "Im";
+// box[1].textContent = "a";
+// box[2].textContent = "God";
 
-// Qs. Create a new button element. Give it a text “click me”, background color of red & text color of white.
-// Insert the button as the first element inside the body tag.
+// // Qs. Create a new button element. Give it a text “click me”, background color of red & text color of white.
+// // Insert the button as the first element inside the body tag.
 
-const whole = document.querySelector("body");
-let btn = document.createElement("button");
-btn.innerText = "click me";
-btn.style.backgroundColor = "red";
-btn.style.color = "white";
+// const whole = document.querySelector("body");
+// let btn = document.createElement("button");
+// btn.innerText = "click me";
+// btn.style.backgroundColor = "red";
+// btn.style.color = "white";
 
-whole.prepend(btn);
+// whole.prepend(btn);
 
-// Qs. Create a <p> tag in html, give it a class & some styling. Now create a new class in CSS and try to append this class to the <p> element.
-// Did you notice, how you overwrite the class name when you add a new one? Solve this problem using classList.
+// // Qs. Create a <p> tag in html, give it a class & some styling. Now create a new class in CSS and try to append this class to the <p> element.
+// // Did you notice, how you overwrite the class name when you add a new one? Solve this problem using classList.
 
-const display = document.querySelector(".story");
-display.className = "changed";
+// const display = document.querySelector(".story");
+// display.className = "changed";
+
+// Events...
+
+// this is the old method...
+
+// button.onclick = function () {
+//   console.log("Clicked");
+// };
+
+// the new one is...
+
+// const btn1 = document.querySelector(".btn1");
+// const child = document.querySelector("#child");
+// const parent = document.querySelector("#parent");
+
+
+// btn1.addEventListener("click",() => {
+//     console.log("button clicked!!");
+// });
+// child.addEventListener("click", (e) => {
+//   e.stopPropagation();
+//   console.log("Child only");
+// });
+
+
+// parent.addEventListener("click", () => console.log("Parent"));
+// child.addEventListener("click", () => console.log("Child"));
