@@ -90,14 +90,29 @@
 
 // ex11:
 
-add.addEventListener("click", () => {
-  const li = document.createElement("li");
-  li.textContent = "Item";
-  items.appendChild(li);
-});
+// add.addEventListener("click", () => {
+//   const li = document.createElement("li");
+//   li.textContent = "Item";
+//   items.appendChild(li);
+// });
 
-items.addEventListener("click", (e) => {
-  if (e.target.tagName === "LI") {
-    e.target.remove();
-  }
-});
+// items.addEventListener("click", (e) => {
+//   if (e.target.tagName === "LI") {
+//     e.target.remove();
+//   }
+// });
+
+// const box = document.getElementById("box");
+
+// box.addEventListener("mouseenter", () => box.style.background = "green");
+// box.addEventListener("mouseleave", () => box.style.background = "red");
+
+// let isScrolling = false;
+
+// window.addEventListener("scroll", () => {
+//   if (!isScrolling) {
+//     console.log("Scrolling");
+//     isScrolling = true;
+//     setTimeout(() => isScrolling = false, 500);
+//   }
+// });
